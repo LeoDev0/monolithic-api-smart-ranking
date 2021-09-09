@@ -12,5 +12,6 @@ import { CategoriaSchema } from './interfaces/categorias.schema';
   ],
   controllers: [CategoriasController],
   providers: [CategoriasService],
+  exports: [CategoriasService],
 })
 export class CategoriasModule {}
